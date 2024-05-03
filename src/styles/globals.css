@@ -6,3 +6,216 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+.sign-out-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* HOME */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  display: block;
+}
+
+.buttons-container {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+
+.buttons-container a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff; /* Updated background color */
+  border-radius: 5px; /* Added border-radius */
+}
+
+.buttons-container a:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+
+
+/* LOG IN */
+
+
+.login-form {
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  right: 30%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-form input {
+  display: block;
+  width: calc(100% - 40px);
+  margin-bottom: 17px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid rgb(216, 212, 212); /* Add transparent border initially */
+  border-radius: 5px; /* Added border-radius */
+  transition: border-color 0.3s ease, transform 0.3s ease; /* Add transition for border color and scale */
+}
+
+.login-form button,
+.login-form a {
+  display: block;
+  width: calc(100% - 40px);
+  margin-bottom: 17px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid transparent; /* Add transparent border initially */
+  border-radius: 5px; /* Added border-radius */
+  transition: border-color 0.3s ease, transform 0.3s ease; /* Add transition for border color and scale */
+}
+.login-form input:hover,
+.login-form button:hover {
+  border-color: #007bff; /* Change border color on hover */
+  transform: scale(1.05); /* Scale up on hover */
+}
+.login-form button:hover,
+.login-form a:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+.login-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.logincancel {
+  background-color: #b1b9c2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  width: calc(100% - 40px);
+  padding: 10px;
+  text-align: center;
+}
+
+.logincancel:hover {
+  text-decoration: underline;
+}
+
+
+/* SIGN UP */
+
+
+.form-container {
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  right: 30%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-container input {
+  display: block;
+  width: calc(100% - 40px);
+  margin-bottom: 17px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid rgb(216, 212, 212); /* Initially transparent border */
+  border-radius: 5px; /* Added border-radius */
+  transition: border-color 0.3s ease, transform 0.3s ease; /* Transition for border color and scale */
+}
+
+.form-container button,
+.form-container a {
+  display: block;
+  width: calc(100% - 40px);
+  margin-bottom: 17px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid transparent; /* Initially transparent border */
+  border-radius: 5px; /* Added border-radius */
+  transition: border-color 0.3s ease, transform 0.3s ease; /* Transition for border color and scale */
+}
+
+.form-container input:hover,
+.signupsignupbutton:hover {
+  border-color: #007bff; /* Highlight border color on hover */
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.form-container a:hover,
+.form-container button:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+.signupsignupbutton {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  width: calc(50% - 20px);
+  padding: 10px;
+  text-align: center;
+}
+
+.signupsignupbutton:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.signuploginbutton {
+  background-color: #b1b9c2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  width: calc(50% - 20px);
+  padding: 10px;
+  text-align: center;
+}
+
+.signuploginbutton:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
