@@ -4,3 +4,14 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+
+
+////This is composition fun
+
+
+function a(func) {
+  return function (...arg) {
+    return func.apply(arg);
+  }
+}
